@@ -49,8 +49,16 @@ img{
 .htmllink{
     font-weight: 800;
     font-size: 26px;
-    margin-bottom: 5px;
-    
+    margin-bottom: 5px;   
+}
+
+.link{
+    text-decoration: none;
+    color: black;
+}
+
+.link:hover{
+    color: hsl(47, 88%, 63%);
 }
 
 .tekst{
@@ -63,8 +71,16 @@ img{
 }
 
 .avatarContainer{
+display: flex;
+align-items: center;
+}
+
+.avatarContainer p{
+   margin-left: 12px;
+   font-weight: 800;
+}
+
    
 
    
     
-}
