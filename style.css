@@ -1,0 +1,70 @@
+body{
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    background-color: hsl(47, 88%, 63%);
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    height: 477px;
+    width: 342px;
+    background-color: hsl(0, 0%, 100%);
+    border: 1px solid;
+    border-radius: 20px;
+    box-shadow: 8px 8px;
+    padding: 20px;
+    font-family: figtree,arial,helvetica;
+    
+
+}
+
+img{
+    border-radius: 10px;
+   
+}
+
+.learning{
+    width: 85px;
+    height: 30px;
+    
+    background-color: hsl(47, 88%, 63%);
+    text-align: center;
+    align-content: center;
+    border-radius: 4px;
+    font-weight: 800;
+    margin-top: 20px;
+}
+
+.published{
+    font-size: 15px;
+    font-weight: 600;
+    margin: 0px;
+}
+
+.htmllink{
+    font-weight: 800;
+    font-size: 26px;
+    margin-bottom: 5px;
+    
+}
+
+.tekst{
+    color: hsl(0, 0%, 50%);
+    margin-top: 10px;    
+}
+
+.avatar{
+    height: 35px;
+}
+
+.avatarContainer{
+   
+
+   
+    
+}
